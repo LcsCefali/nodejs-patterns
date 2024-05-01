@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-patterns",
+  "version": "1.0.0",
+  "description": "Example of multiple NodeJS Patterns",
+  "main": "index.js",
+  "scripts": {
+    "start:strategy": "npm run "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LcsCefali/nodejs-patterns.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "design",
+    "pattern"
+  ],
+  "author": "Lucas Cefali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LcsCefali/nodejs-patterns/issues"
+  },
+  "homepage": "https://github.com/LcsCefali/nodejs-patterns#readme"
+}
