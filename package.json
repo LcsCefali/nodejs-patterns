@@ -2,9 +2,13 @@
   "name": "nodejs-patterns",
   "version": "1.0.0",
   "description": "Example of multiple NodeJS Patterns",
-  "main": "index.js",
+  "main": "src/index.ts",
+  "type": "module",
   "scripts": {
-    "start:strategy": "npm run "
+    "start": "tsx ./src",
+    "strategy": "tsx ./src strategy",
+    "start:strategy": "tsx ./src/strategy",
+    "build:strategy": "node ./build/strategy"
   },
   "repository": {
     "type": "git",
@@ -21,5 +25,17 @@
   "bugs": {
     "url": "https://github.com/LcsCefali/nodejs-patterns/issues"
   },
-  "homepage": "https://github.com/LcsCefali/nodejs-patterns#readme"
+  "homepage": "https://github.com/LcsCefali/nodejs-patterns#readme",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.12.7",
+    "@types/yargs": "^17.0.32",
+    "tsx": "^4.8.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.20",
+    "winston": "^3.13.0",
+    "yargs": "^17.7.2"
+  }
 }

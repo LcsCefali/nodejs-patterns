@@ -1,7 +1,7 @@
-## Node JS Patterns
+## Practical Example of Node JS Patterns
 
 ### Strategy
 
 ```bash
-npm run start:strategy
+yarn start strategy
 ```
