@@ -5,10 +5,7 @@
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
-    "start": "tsx ./src",
-    "strategy": "tsx ./src strategy",
-    "start:strategy": "tsx ./src/strategy",
-    "build:strategy": "node ./build/strategy"
+    "start": "tsx ./src"
   },
   "repository": {
     "type": "git",
