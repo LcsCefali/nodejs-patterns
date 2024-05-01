@@ -11,7 +11,7 @@ yargs(hideBin(process.argv))
   .command('$0 [pattern]', 'select the pattern example', (yargs) => {
     return yargs
       .option('pattern', {
-        default: 'ssdadasd'
+        default: 'strategy'
       })
   }, async (argv) => {
     logger.info(`pattern selected is ${argv.pattern}`);
