@@ -66,7 +66,7 @@ export async function runExample() {
       choices: Object.keys(strategiesList)
     },
     {
-      message: 'What CEP do you what to find?',
+      message: 'What CEP do you want to find?',
       name: 'cep',
       type: 'number'
     }

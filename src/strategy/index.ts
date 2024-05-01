@@ -8,7 +8,7 @@ export const StrategyExamples = {
 export async function runStrategy() {
   const answers = await inquirer.prompt([
     {
-      message: 'Select witch example do you need',
+      message: 'Select which example do you need',
       name: 'example',
       type: 'list',
       choices: Object.keys(StrategyExamples)

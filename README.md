@@ -8,3 +8,4 @@ Run the command and select which example do you need.
 ```bash
 yarn start strategy
 ```
+![Strategy Example](<./assets/strategy-example.gif>)
